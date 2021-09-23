@@ -1,0 +1,19 @@
+.div-subtitle-list {
+  display: flex;
+}
+.subtitle-gasto {
+  width: 50%;
+}
+.subtitle-value {
+  width: 44%;
+}
+.text-subtitle {
+  font-size: 1.8rem !important;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.text-content {
+  font-size: 1.8rem !important;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+}

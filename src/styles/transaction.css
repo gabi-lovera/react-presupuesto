@@ -1,0 +1,77 @@
+.contenido-principal {
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 0px 20px -10px black;
+}
+.row-transaction {
+  display: flex;
+  flex-direction: row;
+}
+.one-half {
+  width: 50%;
+}
+.text-title-card {
+  color: #ee9b00;
+  text-align: center;
+  font-size: 3rem !important;
+
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.div-control-list {
+  padding: 30px;
+}
+.div-control {
+  margin-top: 30px;
+}
+.delete-icon {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #f66165 !important;
+}
+.delete-icon:hover {
+  color: rgb(255, 73, 73) !important;
+  transform: scale(1.2);
+}
+.edit-icon:hover {
+  color: #302dfd !important;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 1000px) {
+  .contenido-principal {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contenido-principal {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .row-transaction {
+    display: flex;
+    flex-direction: column;
+  }
+  .one-half {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contenido-principal {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .contenido-principal {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
